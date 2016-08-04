@@ -1,0 +1,11 @@
+node_modules/
+obj/
+bin
+packages/
+.vs/
+.tmp/
+*.db3
+
+*.sln
+*.suo
+*.csproj

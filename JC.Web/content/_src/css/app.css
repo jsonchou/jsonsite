@@ -1,0 +1,29 @@
+﻿@media only screen
+and (max-width : 1000px) {
+    .header .logo {width: 17%;}
+    .nav{display: none;}
+    .banner-bottom .banner-ul {position: static; top:auto;}
+}
+
+@media only screen
+and (max-width : 769px) {
+    /*.banner-bottom .banner-ul {position: static; top:auto;}
+    .banner-bottom .banner-ul li{margin: 0;width: 100%;display: block;}
+    .characteristic-index{padding-top: 0; }
+    .news-list li{display: block;margin: 0;width: 100%;}
+    .problem .problem-left, .problem .problem-right{float:none;}
+    .characteristic-box{margin-top: 25px;}
+    .characteristic-box .icon img{display: block;width: 100%;}
+    .characteristic-on{padding-top: 0;}
+    .characteristic-box .stress{font-size:18px;margin-top: 30px;}
+    .quickInstallation a, .rapidHeating a {font-size:16px;}
+    .security .icon img{display: block;width: 100%;}
+    .powerSaving  a{font-size:16px;}
+    .security{padding-bottom: 80px;}
+    .security .text{margin-top: 0;}
+    .security .text .title, .durable .text .title{font-size:20px;}
+    .security .list{margin-bottom: 30px;}
+    .security .list li{margin:0 1%;margin-bottom: 20px;}
+    .productColor .box{top: 5%;}
+    .productColor .box .title{font-size:25px;}*/
+}

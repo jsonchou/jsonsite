@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width" />
+    <meta content="telephone=no" name="format-detection" />
+    <title>产品介绍</title>
+    <!-- build:css /content/dist/css/common.css -->
+    <link href="/content/_src/css/common.css" rel="stylesheet" />
+    <!-- /build -->
+    <!-- build:css /content/dist/css/style.css -->
+    <link href="/content/_src/css/style.css" rel="stylesheet" />
+    <!-- /build -->
+    <script src="/content/libs/jquery-1.11.0.min.js"></script>
+    <!-- build:js /content/dist/js/script.js -->
+    <script src="/content/_src/js/script.js"></script>
+    <!-- /build -->
+</head>
+<body>
+    <div class="w">
+        <div class="header">
+            <div class="header-t fix">
+                <div class="logo fl"><a href="#"><img class="block" src="/content/dist/img/logo.png" /> </a></div>
+                <div class="contactUs fr">
+                    <div class="t-nav"><a href="#">首页</a>&frasl;<a href="#">关于惠申</a>&frasl;<a href="#">联系我们</a></div>
+                    <div class="Tel">400 606 1888</div>
+                </div>
+                <div class="nav fr">
+                    <ul class="fix nav-hd">
+                        <li class="on"><a href="/content/dist/demo/产品介绍.html">产品介绍</a></li>
+                        <li><a href="/content/dist/demo/解决方案.html">解决方案</a></li>
+                        <li><a href="/content/dist/demo/用户案例.html">用户见证</a></li>
+                        <li><a href="/content/dist/demo/产品花色.html">产品花色</a></li>        
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-bd">
+                <ul class="fix">
+                    <li class="on"><a href="/content/dist/demo/产品介绍.html">概述</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-安装便捷.html">安装便捷</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-发热快.html">即开即用</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-节能省电.html">节能省电</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-安全环保.html">安全环保</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-超久耐用.html">超久耐用</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-智能温控.html">智能温控</a></li>
+                    <li><a href="/content/dist/demo/产品介绍-说明书.html">参数说明</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner-wrap">
+            <div class="banner">
+                <div class="icon"><img class="block" src="/content/dist/img/h13.jpg" /></div>
+            </div>
+            <div class="banner-bottom">
+                <ul class="banner-ul" style="top:-160px;">
+                    <li>
+                        <div class="icon"><img class="block" src="/content/dist/img/h14.jpg" /></div>
+                        <div class="summarize"><a href="#">中小户型新房装地暖</a></div>
+                    </li>
+                    <li>
+                        <div class="icon"><img class="block" src="/content/dist/img/h15.jpg" /></div>
+                        <div class="summarize"><a href="#">单间局部安装地暖</a></div>
+                    </li>
+                    <li>
+                        <div class="icon"><img class="block" src="/content/dist/img/h16.jpg" /></div>
+                        <div class="summarize"><a href="#">已装修房加装地暖</a></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <script>
+            $(function () {
+                $(window).scroll(function () {
+                    var o = $(this);
+                    var ot = o.scrollTop();
+                    var fixed = $('.characteristic').find('.characteristic-box');
+                    var gif = fixed.find('.icon');
+                    var fixedT = fixed.offset().top
+                    var gift = gif.offset().top;
+                    var j_offset1 = $('.j_offset1').offset().top;
+                    var j_offset2 = $('.j_offset2').offset().top;
+                    var j_offset3 = $('.j_offset3').offset().top;
+                    if (ot >= fixedT) {
+                        gif.addClass('on');
+                    } else {
+                        gif.removeClass('on');
+                    }
+                    if (ot >= j_offset1) {
+                        //alert(123);
+                        gif.find('img').attr('src', '/content/dist/img/g11.png')
+                    }
+                    if (ot >= j_offset2) {
+                        //alert(123);
+                        gif.find('img').attr('src', '/content/dist/img/g10.png')
+                    }
+                    if (ot >= j_offset3) {
+                        //alert(123);
+                        gif.find('img').attr('src', '/content/dist/img/g9.png')
+                    }
+                });
+            })
+        </script>
+        <div class="characteristic characteristic-on">
+            <div class="characteristic-box">
+                <div class="icon"><img src="/content/dist/img/g12.png" /><span></span></div>
+                <div class="stress tc">地板(瓷砖)+地暖全集成，不占层高，安装方便 <br />是中小户型安装地暖的最佳选择</div>
+                <div class="text tl"><span class="f72a trademark">惠申<i>TM</i> </span>中小户型地暖，将发热系统集成到地板/瓷砖内部，外观与普通地板/瓷砖一样，结构简单、安装便捷、不占层高。发热快，可分时分区控制，没有空置能耗，更省电。发热系统技术成熟，防水防漏电，使用寿命长，无需维护，30年保修承诺更安心。相对于更适合大户型的水暖，<span class="f72a trademark">惠申<i>TM</i></span>是中小户型用户安装地暖的最佳选择！</div>
+            </div>
+        </div>
+        <div style="margin-top:-121px;" class="j_offset1"><img class="block" src="/content/dist/img/h4.png" /></div>
+        <div class="quickInstallation j_offset2">
+            <div class="icon"><img class="block" src="/content/dist/img/h17.jpg" /></div>
+            <a href="">了解安装快 ></a>
+        </div>
+        <div class="rapidHeating j_offset3">
+            <div class="icon"><img class="block" src="/content/dist/img/h18.jpg" /></div>
+            <a href="">了解发热快 ></a>
+        </div>
+        <div class="powerSaving">
+            <div class="icon"><img class="block" src="/content/dist/img/h19.jpg" /></div>
+            <a href="">了解更省电 ></a>
+        </div>
+        <div class="security">
+            <div class="icon tc"><img src="/content/dist/img/h5.png" /></div>
+            <div class="text tc">
+                <div class="title">安全环保</div>
+                <div class="font"><span class="f72a trademark">惠申<i>TM</i></span>中小户型地暖通过欧盟3C认证，从技术到材料，从每个角度确保产品安全环保。<br />无需担心漏电、漏水、辐射及甲醛的危害。</div>
+            </div>
+            <ul class="list tc">
+                <li>
+                    <div class="icon"><img class="block" src="/content/dist/img/h6.png" /></div>
+                    <p>漏电保护</p>
+                </li>
+                <li>
+                    <div class="icon"><img class="block" src="/content/dist/img/h7.png" /></div>
+                    <p>密封防水</p>
+                </li>
+                <li>
+                    <div class="icon"><img class="block" src="/content/dist/img/h8.png" /></div>
+                    <p>无辐射危害</p>
+                </li>
+                <li>
+                    <div class="icon"><img class="block" src="/content/dist/img/h9.png" /></div>
+                    <p>无甲醛挥发</p>
+                </li>
+                <li>
+                    <div class="icon"><img class="block" src="/content/dist/img/h10.png" /></div>
+                    <p>35℃安全采暖</p>
+                </li>
+            </ul>
+            <div class="tc f18 more"><a href="#">了解安全环保  ></a></div>
+        </div>
+        <div class="durable">
+            <div class="icon"><img class="block" src="/content/dist/img/h11.png" /></div>
+            <a href="">了解超久耐用  ></a>
+        </div>
+        <div>
+            <div class="icon"><img class="block" src="/content/dist/img/h20.jpg" /></div>
+        </div>
+        <div class="problem fix">
+            <div class="problem-left">
+                <div class="icon"><img class="block" src="/content/dist/img/h11.jpg" /></div>
+                <a href="">常见问题</a>
+            </div>
+            <div class="problem-right">
+                <div class="icon"><img class="block" src="/content/dist/img/h12.jpg" /></div>
+                <a href="">解决方案</a>
+            </div>
+        </div>
+        <div class="moreInfo">
+            <div class="moreInfo-box fix">
+                <div class="fl">
+                    <dl>
+                        <dt>产品介绍</dt>
+                        <dd><a href="">概述</a></dd>
+                        <dd><a href="">安装便捷</a></dd>
+                        <dd><a href="">即开即用</a></dd>
+                        <dd><a href="">高效省电</a></dd>
+                        <dd><a href="">安全环保</a></dd>
+                        <dd><a href="">超久耐用</a></dd>
+                        <dd><a href="">参数说明</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>解决方案</dt>
+                        <dd><a href="">新房装修</a></dd>
+                        <dd><a href="">工程使用</a></dd>
+                        <dd><a href="">常见问题</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>用户见证</dt>
+                        <dd><a href="">用户回访</a></dd>
+                        <dd><a href="">用户案例</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>产品花色</dt>
+                        <dd><a href="">实木复合地板</a></dd>
+                        <dd><a href="">强化复合地板</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>关于惠申</dt>
+                        <dd><a href="">关于我们</a></dd>
+                        <dd><a href="">新闻中心</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>联系我们</dt>
+                        <dd><a href="">400 606 1888</a></dd>
+                        <dd><a href="">周一至周日 6:00-21:00</a></dd>
+                        <dd><a href="">仅收市话费</a></dd>
+                    </dl>
+                </div>
+                <div class="message fr">
+                    <form>
+                        <div><input type="text" class="contacts" placeholder="联系人" /></div>
+                        <div><input type="text" class="phone" placeholder="手机号码" /></div>
+                        <div><textarea class="message" placeholder="有任何问题，你可留言给我们，我们会在12小时内给你答复"></textarea></div>
+                        <a class="email" href="mailto:info@huisens.com "></a>
+                    </form>
+                    <div class="mascot"></div>
+                </div>
+            </div>
+        </div>
+        <!-- build:include _common/footer.html -->
+        This will be replaced by the content of footer.html
+        <!-- /build -->
+    </div>
+</body>
+</html>

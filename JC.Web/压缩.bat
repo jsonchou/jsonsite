@@ -1,0 +1,3 @@
+grunt ok
+
+pause

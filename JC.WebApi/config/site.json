@@ -1,0 +1,55 @@
+﻿{
+  "db": {
+    "con": "Data Source=|DataDirectory|\\JsonDB.db3;Version=3;Pooling=True;Max Pool Size=1000;",
+    "encrypt": false
+  },
+  "DAL": "JC.SQLiteDAL",
+  "ModelCache": 300,
+  "siteKey": "JC",
+  "site": {
+    "domain": "localhost",
+    "contact": [
+      {
+        "id": 1,
+        "address": "上海杨浦区国安路758号星汇广场8号楼4楼",
+        "city": "上海",
+        "citycode": "SH",
+        "email": "info@huisens.com",
+        "phone": "",
+        "fox": "",
+        "weibo": "",
+        "weibocode": "",
+        "weixin": "",
+        "weixincode": "",
+        "worktime": "周一至周日 6:00-21:00"
+      }
+    ],
+    "admin": {
+      "name": "admin",
+      "pwd": "admin"
+    },
+    "language": {
+      "name": [ "中文", "英文", "日文", "法文" ],
+      "code": [ "cn", "english", "japanese", "french" ]
+    },
+    "adposition": [ "首页", "文章详情页" ],
+    "friendlinkposition": [ "首页", "文章详情页" ]
+  },
+  "posts": {
+    "news": {
+      "tag": [ ]
+    },
+    "cases": {
+      "tag": [ "新房装修", "单间安装", "老房安装", "工程案例" ]
+    },
+    "huifang": {
+      "tag": [ "新房装修", "单间安装", "老房安装", "工程案例" ]
+    }
+  },
+  "manager": {
+    "logs": {
+      "name": [ "增加", "删除", "修改", "登录", "退出" ],
+      "code": [ "plus", "remove", "edit", "sign-in", "sign-out" ]
+    }
+  }
+}
